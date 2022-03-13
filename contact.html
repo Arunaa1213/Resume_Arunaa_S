@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>CONTACT</title>
+    <style>
+      .navbar {
+        overflow: hidden;
+        background-color: rgb(92, 89, 89);
+      }
+      .navbar a {
+        float: right;
+        font-size: 16px;
+        color: white;
+        text-align: center;
+        padding: 12px 12px;
+        text-decoration: none;
+      }
+      body {
+        background-image: url("images/milky-way-2695569__480.jpg");
+        background-repeat: no-repeat;
+        width: 100%;
+        background-size: cover;
+      }
+      .centered {
+        margin-left: 37%;
+        margin-top: 10%;
+        color: white;
+        font-size: large;
+        /* border: 3px solid black; */
+        /* width: 35%; */
+      }
+      input[type="text"],
+      select {
+        width: 15%;
+        padding: 12px 20px;
+        margin: 8px 0;
+        display: inline-block;
+        border: 1px solid #ccc;
+        border-radius: 4px;
+        box-sizing: border-box;
+      }
+
+      /* Style the submit button */
+      input[type="submit"] {
+        width: 20%;
+        background-color: #04aa6d;
+        color: white;
+        padding: 14px 20px;
+        margin: 8px 0;
+        border: none;
+        border-radius: 4px;
+        cursor: pointer;
+      }
+
+      /* Add a background color to the submit button on mouse-over */
+      input[type="submit"]:hover {
+        background-color: #45a049;
+      }
+    </style>
+  </head>
+  <body>
+    <!-- <img src="images/people-holding-conversation-bubbles.jpg" width="100%" /> -->
+    <div class="navbar">
+      <a href="contact.html">Contact</a>
+      <a href="index.html">Home</a>
+    </div>
+    <div class="centered">
+      <p>Email : arunaasureshkumar@gmail.com<br />arunaas.20cse@kongu.edu</p>
+      <p>GitHub : Arunaa S</p>
+      <p>LinkedIn : arunaa_sureshkumar</p>
+
+      <p>Contact Directly</p>
+      <form>
+        <lable>Name : </lable>
+        <input
+          type="name"
+          id="fname"
+          name="name"
+          placeholder="name"
+        /><br /><br />
+        <label>Email:</label>
+        <input
+          type="email"
+          id="email"
+          name="email"
+          placeholder="email"
+        /><br /><br />
+        <label>Ask anything : </label>
+        <input
+          type="text"
+          id="text"
+          name="txt"
+          placeholder="Ask anything"
+        /><br /><br />
+        <input type="submit" value="ASK" />
+      </form>
+    </div>
+  </body>
+</html>
